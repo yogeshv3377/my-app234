@@ -1,0 +1,53 @@
+.Homebody{
+  width: 100%;
+}
+
+.navbar {
+    background-color:rgb(31, 29, 29);
+    height: 70px;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    text-decoration: none;
+
+  }  
+  .nav-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    text-decoration: none;
+  }
+  .nav-item {
+    margin-right: 25px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 15px;
+    margin-left:80px;
+
+  }
+  .nav-item:hover {
+    text-decoration:none;
+    color:bisque;
+  }
+  .nav-display{
+    display: flex;
+    flex-direction: row;
+  }
+
+
+.wallpaper{
+    background-image: url("https://img.freepik.com/free-photo/luxurious-car-parked-highway-with-illuminated-headlight-sunset_181624-60607.jpg?size=626&ext=jpg&ga=GA1.1.1877224754.1698289699&semt=ais");
+    height: 100vh;
+    /* margin-left: 1%; */
+    width: 100%;
+   background-size: cover;
+
+}
+
+
+.display{
+  display: flex;
+  flex-direction: row;
+}

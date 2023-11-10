@@ -1,0 +1,28 @@
+.Body{
+    width: 100%;
+
+}
+.Navbhar{
+    width: 100%;
+    height: 15vh;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+
+
+
+
+    
+}
+.Navbhar-ul-li{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    
+
+
+}
+.li{
+    text-decoration: none;
+}

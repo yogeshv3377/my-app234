@@ -1,0 +1,32 @@
+.Registercon{
+  display: flex;
+  position: relative;
+   left: 10%; 
+  padding: 10%; 
+ background-size: cover;
+
+}
+.Registercon form{
+  border: 1px black solid;
+  padding: 2em;
+ box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+ display: flex;
+ width: 50%;
+ 
+  
+}
+.Registercon form div button {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 2.5em;
+  padding: 1em 20em;
+  margin-left: 3em;
+}
+.Registercon form div{
+line-height: 2em;
+}
+.label{
+  height: 20px;
+  width: 20px;
+}
