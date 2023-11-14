@@ -4,8 +4,8 @@
   background-image: url('https://images.pexels.com/photos/14242300/pexels-photo-14242300.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
     height: 100vh;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center;
+    justify-content: center; */
     padding: 2em 20em;
     background-size: cover;
     background-position: 0%;
@@ -21,10 +21,10 @@
     font-size: 60px;
     color: aliceblue;
   }
-  .Signin{
+  .Username{
     color: aliceblue;
     margin-top: 10px;
-    /* margin-left: 10px; */
+    margin-left: -300px;
     display: flex;
     font-size: 80px;
   }
@@ -37,7 +37,7 @@
    
     margin-left: -1180px;
       
-    color:rgb(24, 23, 23);
+    color:rgb(243, 239, 239);
     
   
   background-color: rgb(159, 163, 163);
@@ -46,8 +46,31 @@
     
     
   }
+  .First{
+    color: azure;
+    font-size: 40px;
+    margin-left: -50%;
+    margin-top: 10%;
+  }
+  .Password1{
+    color: azure;
+    font-size: 40px;
+    margin-left: -60%;
+    margin-top: 10%;
+  }
+  .Password2{
+    color: azure;
+    font-size: 40px;
+    margin-left: -60%;
+    margin-top: 10%;
+  }
+
   
-  
+  .Input{
+    display: flex;
+    padding: 10px ;
+    margin-left: 10%;
+  }
   
   
   .Text2{
@@ -69,6 +92,12 @@
   ::placeholder{
     color:rgb(242, 245, 243);
     font-size: medium;
+  }
+  .ok{
+    margin-left: -40%;
+    margin-top: 15%;
+    color: white;
+
   }
   
   .Text4{

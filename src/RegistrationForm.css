@@ -1,0 +1,64 @@
+ .registration-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image:  url(https://images.pexels.com/photos/7014337/pexels-photo-7014337.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  
+  form {
+    width: 400px; 
+    padding: 60px;
+    border: 1px solid #3a3838;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgb(120, 122, 122);
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    font-size: 25px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input,
+  select {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: larger;
+  }
+  
+  .error {
+    color: red;
+    margin-top: 5px;
+  }
+  
+  button {
+    background-color: #6f4caf;
+    color: white;
+    padding: 20px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: larger;
+    margin-left: 40%;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  .registration-form-container-Reg{
+    margin-top: -38%;
+    margin-left: 100px;
+  } 
+
+
